@@ -34,7 +34,8 @@
                                             <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
-                                            <segue destination="x8s-zb-92V" kind="show" id="kg0-1r-aVB"/>
+                                            <action selector="Login:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZN5-sc-48N"/>
+                                            <segue destination="x8s-zb-92V" kind="show" identifier="LoggedIn" id="kg0-1r-aVB"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ArP-ab-e8o">
@@ -46,7 +47,7 @@
                                             <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
-                                            <segue destination="x8s-zb-92V" kind="show" id="cBg-tr-Ikf"/>
+                                            <action selector="SignUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2LS-co-xkx"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -106,9 +107,6 @@
             <point key="canvasLocation" x="805.79710144927537" y="88.392857142857139"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="kg0-1r-aVB"/>
-    </inferredMetricsTieBreakers>
     <resources>
         <image name="GroupProjectArt1_Flower2.png" width="785" height="1395"/>
         <systemColor name="systemBackgroundColor">
