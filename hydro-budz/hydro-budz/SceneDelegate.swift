@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  hydro-budz
+//  Hydro-Budz
 //
-//  Created by Amanda Juarez on 11/7/21.
+//  Created by Amanda Juarez on 11/8/21.
 //
 
 import UIKit

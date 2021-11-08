@@ -7,29 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6B59E98B2738E53000DCAB67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B59E98A2738E53000DCAB67 /* AppDelegate.swift */; };
-		6B59E98D2738E53000DCAB67 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B59E98C2738E53000DCAB67 /* SceneDelegate.swift */; };
-		6B59E98F2738E53000DCAB67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B59E98E2738E53000DCAB67 /* ViewController.swift */; };
-		6B59E9922738E53000DCAB67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B59E9902738E53000DCAB67 /* Main.storyboard */; };
-		6B59E9952738E53000DCAB67 /* hydro_budz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6B59E9932738E53000DCAB67 /* hydro_budz.xcdatamodeld */; };
-		6B59E9972738E53300DCAB67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B59E9962738E53300DCAB67 /* Assets.xcassets */; };
-		6B59E99A2738E53300DCAB67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B59E9982738E53300DCAB67 /* LaunchScreen.storyboard */; };
+		6B283B682739CC8300F0BDF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B283B672739CC8300F0BDF6 /* AppDelegate.swift */; };
+		6B283B6A2739CC8300F0BDF6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B283B692739CC8300F0BDF6 /* SceneDelegate.swift */; };
+		6B283B6C2739CC8300F0BDF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B283B6B2739CC8300F0BDF6 /* ViewController.swift */; };
+		6B283B6F2739CC8300F0BDF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B283B6D2739CC8300F0BDF6 /* Main.storyboard */; };
+		6B283B722739CC8300F0BDF6 /* Hydro_Budz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6B283B702739CC8300F0BDF6 /* Hydro_Budz.xcdatamodeld */; };
+		6B283B742739CC8800F0BDF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B283B732739CC8800F0BDF6 /* Assets.xcassets */; };
+		6B283B772739CC8800F0BDF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B283B752739CC8800F0BDF6 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6B59E9872738E53000DCAB67 /* hydro-budz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hydro-budz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6B59E98A2738E53000DCAB67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6B59E98C2738E53000DCAB67 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6B59E98E2738E53000DCAB67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6B59E9912738E53000DCAB67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6B59E9942738E53000DCAB67 /* hydro_budz.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = hydro_budz.xcdatamodel; sourceTree = "<group>"; };
-		6B59E9962738E53300DCAB67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6B59E9992738E53300DCAB67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		6B59E99B2738E53300DCAB67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B283B642739CC8300F0BDF6 /* Hydro-Budz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hydro-Budz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B283B672739CC8300F0BDF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6B283B692739CC8300F0BDF6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6B283B6B2739CC8300F0BDF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6B283B6E2739CC8300F0BDF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B283B712739CC8300F0BDF6 /* Hydro_Budz.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hydro_Budz.xcdatamodel; sourceTree = "<group>"; };
+		6B283B732739CC8800F0BDF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B283B762739CC8800F0BDF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B283B782739CC8800F0BDF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6B59E9842738E53000DCAB67 /* Frameworks */ = {
+		6B283B612739CC8300F0BDF6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,72 +39,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6B59E97E2738E53000DCAB67 = {
+		6B283B5B2739CC8300F0BDF6 = {
 			isa = PBXGroup;
 			children = (
-				6B59E9892738E53000DCAB67 /* hydro-budz */,
-				6B59E9882738E53000DCAB67 /* Products */,
+				6B283B662739CC8300F0BDF6 /* Hydro-Budz */,
+				6B283B652739CC8300F0BDF6 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6B59E9882738E53000DCAB67 /* Products */ = {
+		6B283B652739CC8300F0BDF6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6B59E9872738E53000DCAB67 /* hydro-budz.app */,
+				6B283B642739CC8300F0BDF6 /* Hydro-Budz.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6B59E9892738E53000DCAB67 /* hydro-budz */ = {
+		6B283B662739CC8300F0BDF6 /* Hydro-Budz */ = {
 			isa = PBXGroup;
 			children = (
-				6B59E98A2738E53000DCAB67 /* AppDelegate.swift */,
-				6B59E98C2738E53000DCAB67 /* SceneDelegate.swift */,
-				6B59E98E2738E53000DCAB67 /* ViewController.swift */,
-				6B59E9902738E53000DCAB67 /* Main.storyboard */,
-				6B59E9962738E53300DCAB67 /* Assets.xcassets */,
-				6B59E9982738E53300DCAB67 /* LaunchScreen.storyboard */,
-				6B59E99B2738E53300DCAB67 /* Info.plist */,
-				6B59E9932738E53000DCAB67 /* hydro_budz.xcdatamodeld */,
+				6B283B672739CC8300F0BDF6 /* AppDelegate.swift */,
+				6B283B692739CC8300F0BDF6 /* SceneDelegate.swift */,
+				6B283B6B2739CC8300F0BDF6 /* ViewController.swift */,
+				6B283B6D2739CC8300F0BDF6 /* Main.storyboard */,
+				6B283B732739CC8800F0BDF6 /* Assets.xcassets */,
+				6B283B752739CC8800F0BDF6 /* LaunchScreen.storyboard */,
+				6B283B782739CC8800F0BDF6 /* Info.plist */,
+				6B283B702739CC8300F0BDF6 /* Hydro_Budz.xcdatamodeld */,
 			);
-			path = "hydro-budz";
+			path = "Hydro-Budz";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6B59E9862738E53000DCAB67 /* hydro-budz */ = {
+		6B283B632739CC8300F0BDF6 /* Hydro-Budz */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6B59E99E2738E53300DCAB67 /* Build configuration list for PBXNativeTarget "hydro-budz" */;
+			buildConfigurationList = 6B283B7B2739CC8800F0BDF6 /* Build configuration list for PBXNativeTarget "Hydro-Budz" */;
 			buildPhases = (
-				6B59E9832738E53000DCAB67 /* Sources */,
-				6B59E9842738E53000DCAB67 /* Frameworks */,
-				6B59E9852738E53000DCAB67 /* Resources */,
+				6B283B602739CC8300F0BDF6 /* Sources */,
+				6B283B612739CC8300F0BDF6 /* Frameworks */,
+				6B283B622739CC8300F0BDF6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "hydro-budz";
-			productName = "hydro-budz";
-			productReference = 6B59E9872738E53000DCAB67 /* hydro-budz.app */;
+			name = "Hydro-Budz";
+			productName = "Hydro-Budz";
+			productReference = 6B283B642739CC8300F0BDF6 /* Hydro-Budz.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6B59E97F2738E53000DCAB67 /* Project object */ = {
+		6B283B5C2739CC8300F0BDF6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					6B59E9862738E53000DCAB67 = {
+					6B283B632739CC8300F0BDF6 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
 			};
-			buildConfigurationList = 6B59E9822738E53000DCAB67 /* Build configuration list for PBXProject "hydro-budz" */;
+			buildConfigurationList = 6B283B5F2739CC8300F0BDF6 /* Build configuration list for PBXProject "Hydro-Budz" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,56 +112,56 @@
 				en,
 				Base,
 			);
-			mainGroup = 6B59E97E2738E53000DCAB67;
-			productRefGroup = 6B59E9882738E53000DCAB67 /* Products */;
+			mainGroup = 6B283B5B2739CC8300F0BDF6;
+			productRefGroup = 6B283B652739CC8300F0BDF6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6B59E9862738E53000DCAB67 /* hydro-budz */,
+				6B283B632739CC8300F0BDF6 /* Hydro-Budz */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6B59E9852738E53000DCAB67 /* Resources */ = {
+		6B283B622739CC8300F0BDF6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B59E99A2738E53300DCAB67 /* LaunchScreen.storyboard in Resources */,
-				6B59E9972738E53300DCAB67 /* Assets.xcassets in Resources */,
-				6B59E9922738E53000DCAB67 /* Main.storyboard in Resources */,
+				6B283B772739CC8800F0BDF6 /* LaunchScreen.storyboard in Resources */,
+				6B283B742739CC8800F0BDF6 /* Assets.xcassets in Resources */,
+				6B283B6F2739CC8300F0BDF6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6B59E9832738E53000DCAB67 /* Sources */ = {
+		6B283B602739CC8300F0BDF6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B59E98F2738E53000DCAB67 /* ViewController.swift in Sources */,
-				6B59E9952738E53000DCAB67 /* hydro_budz.xcdatamodeld in Sources */,
-				6B59E98B2738E53000DCAB67 /* AppDelegate.swift in Sources */,
-				6B59E98D2738E53000DCAB67 /* SceneDelegate.swift in Sources */,
+				6B283B6C2739CC8300F0BDF6 /* ViewController.swift in Sources */,
+				6B283B722739CC8300F0BDF6 /* Hydro_Budz.xcdatamodeld in Sources */,
+				6B283B682739CC8300F0BDF6 /* AppDelegate.swift in Sources */,
+				6B283B6A2739CC8300F0BDF6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6B59E9902738E53000DCAB67 /* Main.storyboard */ = {
+		6B283B6D2739CC8300F0BDF6 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6B59E9912738E53000DCAB67 /* Base */,
+				6B283B6E2739CC8300F0BDF6 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		6B59E9982738E53300DCAB67 /* LaunchScreen.storyboard */ = {
+		6B283B752739CC8800F0BDF6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6B59E9992738E53300DCAB67 /* Base */,
+				6B283B762739CC8800F0BDF6 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -169,7 +169,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		6B59E99C2738E53300DCAB67 /* Debug */ = {
+		6B283B792739CC8800F0BDF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -230,7 +230,7 @@
 			};
 			name = Debug;
 		};
-		6B59E99D2738E53300DCAB67 /* Release */ = {
+		6B283B7A2739CC8800F0BDF6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -285,36 +285,36 @@
 			};
 			name = Release;
 		};
-		6B59E99F2738E53300DCAB67 /* Debug */ = {
+		6B283B7C2739CC8800F0BDF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "hydro-budz/Info.plist";
+				INFOPLIST_FILE = "Hydro-Budz/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "utexas.Final-Project.hydro-budz";
+				PRODUCT_BUNDLE_IDENTIFIER = "utexas.Final-Project.Hydro-Budz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		6B59E9A02738E53300DCAB67 /* Release */ = {
+		6B283B7D2739CC8800F0BDF6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "hydro-budz/Info.plist";
+				INFOPLIST_FILE = "Hydro-Budz/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "utexas.Final-Project.hydro-budz";
+				PRODUCT_BUNDLE_IDENTIFIER = "utexas.Final-Project.Hydro-Budz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -324,20 +324,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6B59E9822738E53000DCAB67 /* Build configuration list for PBXProject "hydro-budz" */ = {
+		6B283B5F2739CC8300F0BDF6 /* Build configuration list for PBXProject "Hydro-Budz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6B59E99C2738E53300DCAB67 /* Debug */,
-				6B59E99D2738E53300DCAB67 /* Release */,
+				6B283B792739CC8800F0BDF6 /* Debug */,
+				6B283B7A2739CC8800F0BDF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6B59E99E2738E53300DCAB67 /* Build configuration list for PBXNativeTarget "hydro-budz" */ = {
+		6B283B7B2739CC8800F0BDF6 /* Build configuration list for PBXNativeTarget "Hydro-Budz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6B59E99F2738E53300DCAB67 /* Debug */,
-				6B59E9A02738E53300DCAB67 /* Release */,
+				6B283B7C2739CC8800F0BDF6 /* Debug */,
+				6B283B7D2739CC8800F0BDF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -345,17 +345,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		6B59E9932738E53000DCAB67 /* hydro_budz.xcdatamodeld */ = {
+		6B283B702739CC8300F0BDF6 /* Hydro_Budz.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				6B59E9942738E53000DCAB67 /* hydro_budz.xcdatamodel */,
+				6B283B712739CC8300F0BDF6 /* Hydro_Budz.xcdatamodel */,
 			);
-			currentVersion = 6B59E9942738E53000DCAB67 /* hydro_budz.xcdatamodel */;
-			path = hydro_budz.xcdatamodeld;
+			currentVersion = 6B283B712739CC8300F0BDF6 /* Hydro_Budz.xcdatamodel */;
+			path = Hydro_Budz.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 6B59E97F2738E53000DCAB67 /* Project object */;
+	rootObject = 6B283B5C2739CC8300F0BDF6 /* Project object */;
 }
