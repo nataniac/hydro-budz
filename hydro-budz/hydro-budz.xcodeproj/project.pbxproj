@@ -14,6 +14,7 @@
 		6B283B722739CC8300F0BDF6 /* Hydro_Budz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6B283B702739CC8300F0BDF6 /* Hydro_Budz.xcdatamodeld */; };
 		6B283B742739CC8800F0BDF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B283B732739CC8800F0BDF6 /* Assets.xcassets */; };
 		6B283B772739CC8800F0BDF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B283B752739CC8800F0BDF6 /* LaunchScreen.storyboard */; };
+		6B283B7F2739CD0F00F0BDF6 /* GroupProjectArt1_Flower2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B283B7E2739CD0F00F0BDF6 /* GroupProjectArt1_Flower2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		6B283B732739CC8800F0BDF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B283B762739CC8800F0BDF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B283B782739CC8800F0BDF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B283B7E2739CD0F00F0BDF6 /* GroupProjectArt1_Flower2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GroupProjectArt1_Flower2.png; path = "Hydro-Budz/Flower_Images/GroupProjectArt1_Flower2.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		6B283B662739CC8300F0BDF6 /* Hydro-Budz */ = {
 			isa = PBXGroup;
 			children = (
+				6B283B802739CD1400F0BDF6 /* Flower_Images */,
 				6B283B672739CC8300F0BDF6 /* AppDelegate.swift */,
 				6B283B692739CC8300F0BDF6 /* SceneDelegate.swift */,
 				6B283B6B2739CC8300F0BDF6 /* ViewController.swift */,
@@ -68,6 +71,14 @@
 				6B283B702739CC8300F0BDF6 /* Hydro_Budz.xcdatamodeld */,
 			);
 			path = "Hydro-Budz";
+			sourceTree = "<group>";
+		};
+		6B283B802739CD1400F0BDF6 /* Flower_Images */ = {
+			isa = PBXGroup;
+			children = (
+				6B283B7E2739CD0F00F0BDF6 /* GroupProjectArt1_Flower2.png */,
+			);
+			path = Flower_Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +141,7 @@
 				6B283B772739CC8800F0BDF6 /* LaunchScreen.storyboard in Resources */,
 				6B283B742739CC8800F0BDF6 /* Assets.xcassets in Resources */,
 				6B283B6F2739CC8300F0BDF6 /* Main.storyboard in Resources */,
+				6B283B7F2739CD0F00F0BDF6 /* GroupProjectArt1_Flower2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
