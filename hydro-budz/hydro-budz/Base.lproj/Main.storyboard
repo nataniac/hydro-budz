@@ -71,21 +71,108 @@
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="79.6875"/>
         </scene>
-        <!--View Controller-->
+        <!--Main Screen View Controller-->
         <scene sceneID="DRX-Lb-cn2">
             <objects>
-                <viewController id="Ch2-u4-Azo" sceneMemberID="viewController">
+                <viewController id="Ch2-u4-Azo" customClass="MainScreenViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MEq-Am-opf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EBF-hM-IeS">
+                                <rect key="frame" x="136" y="556" width="142" height="175"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="v30-qx-F2Y" kind="show" id="0AP-RQ-1Z3"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="XK1-TQ-SBV"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="M7U-ZG-P5I"/>
+                    <connections>
+                        <outlet property="UpdateWaterButton" destination="EBF-hM-IeS" id="0vc-bM-Pqe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Ah-Ux-Bb3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1715.9420289855075" y="88.392857142857139"/>
+        </scene>
+        <!--Water Update-->
+        <scene sceneID="giG-84-gPp">
+            <objects>
+                <viewController id="v30-qx-F2Y" customClass="UpdateWaterViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hN4-kI-BON">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" spacing="150" translatesAutoresizingMaskIntoConstraints="NO" id="8Vd-G0-wqP">
+                                <rect key="frame" x="20" y="385" width="374" height="72"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B3K-fQ-ArR">
+                                        <rect key="frame" x="0.0" y="25" width="18" height="22"/>
+                                        <state key="normal" image="minus" catalog="system"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pH1-Jk-A5b">
+                                        <rect key="frame" x="168.33333333333334" y="0.0" width="37.333333333333343" height="72"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="61"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cZX-PV-qIT">
+                                        <rect key="frame" x="356" y="25" width="18" height="22"/>
+                                        <state key="normal" image="plus" catalog="system"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Today's Date" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R7B-m1-fHu">
+                                <rect key="frame" x="136" y="773.66666666666663" width="142" height="20.333333333333371"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amount of Water for Today" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eqa-y2-8bi">
+                                <rect key="frame" x="75" y="225" width="264" height="27.666666666666657"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="27.666666666666686" id="i10-Iw-Zad"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(In Cups)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xlc-ij-aMu">
+                                <rect key="frame" x="172" y="275" width="70" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="D1e-NQ-5oB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="jgg-tH-m3e"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="xlc-ij-aMu" firstAttribute="top" secondItem="Eqa-y2-8bi" secondAttribute="bottom" constant="22.333333333333314" id="Brd-ns-Uy0"/>
+                            <constraint firstItem="8Vd-G0-wqP" firstAttribute="top" secondItem="xlc-ij-aMu" secondAttribute="bottom" constant="89" id="Eq3-3S-lFi"/>
+                            <constraint firstItem="jgg-tH-m3e" firstAttribute="bottom" secondItem="R7B-m1-fHu" secondAttribute="bottom" constant="14" id="R9G-ZN-FnW"/>
+                            <constraint firstItem="Eqa-y2-8bi" firstAttribute="centerX" secondItem="R7B-m1-fHu" secondAttribute="centerX" id="eoi-gO-TiF"/>
+                            <constraint firstItem="8Vd-G0-wqP" firstAttribute="centerY" secondItem="hN4-kI-BON" secondAttribute="centerY" id="ezu-ie-u9O"/>
+                            <constraint firstItem="Eqa-y2-8bi" firstAttribute="top" secondItem="jgg-tH-m3e" secondAttribute="top" constant="169" id="fNw-jt-88x"/>
+                            <constraint firstItem="8Vd-G0-wqP" firstAttribute="centerX" secondItem="xlc-ij-aMu" secondAttribute="centerX" id="fcZ-IN-FkG"/>
+                            <constraint firstItem="R7B-m1-fHu" firstAttribute="leading" secondItem="jgg-tH-m3e" secondAttribute="leading" constant="136" id="mF8-x1-eSm"/>
+                            <constraint firstItem="Eqa-y2-8bi" firstAttribute="centerX" secondItem="8Vd-G0-wqP" secondAttribute="centerX" id="tJD-q4-2j5"/>
+                            <constraint firstItem="Eqa-y2-8bi" firstAttribute="centerX" secondItem="hN4-kI-BON" secondAttribute="centerX" id="taC-su-cyZ"/>
+                            <constraint firstItem="8Vd-G0-wqP" firstAttribute="leading" secondItem="hN4-kI-BON" secondAttribute="leadingMargin" id="wL6-qU-ChQ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Water Update" id="BKM-Kf-9Wb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7xK-L9-20f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2466.666666666667" y="118.52678571428571"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="boW-Yf-UoB">
@@ -109,6 +196,8 @@
     </scenes>
     <resources>
         <image name="GroupProjectArt1_Flower2.png" width="785" height="1395"/>
+        <image name="minus" catalog="system" width="128" height="24"/>
+        <image name="plus" catalog="system" width="128" height="113"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

@@ -15,6 +15,7 @@
 		6B283B742739CC8800F0BDF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B283B732739CC8800F0BDF6 /* Assets.xcassets */; };
 		6B283B772739CC8800F0BDF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B283B752739CC8800F0BDF6 /* LaunchScreen.storyboard */; };
 		6B283B7F2739CD0F00F0BDF6 /* GroupProjectArt1_Flower2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B283B7E2739CD0F00F0BDF6 /* GroupProjectArt1_Flower2.png */; };
+		6B99623027546982001DA0A1 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B99622F27546982001DA0A1 /* MainScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		6B283B762739CC8800F0BDF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B283B782739CC8800F0BDF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B283B7E2739CD0F00F0BDF6 /* GroupProjectArt1_Flower2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GroupProjectArt1_Flower2.png; path = "Hydro-Budz/Flower_Images/GroupProjectArt1_Flower2.png"; sourceTree = SOURCE_ROOT; };
+		6B99622F27546982001DA0A1 /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				6B283B672739CC8300F0BDF6 /* AppDelegate.swift */,
 				6B283B692739CC8300F0BDF6 /* SceneDelegate.swift */,
 				6B283B6B2739CC8300F0BDF6 /* ViewController.swift */,
+				6B99622F27546982001DA0A1 /* MainScreenViewController.swift */,
 				6B283B6D2739CC8300F0BDF6 /* Main.storyboard */,
 				6B283B732739CC8800F0BDF6 /* Assets.xcassets */,
 				6B283B752739CC8800F0BDF6 /* LaunchScreen.storyboard */,
@@ -152,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B99623027546982001DA0A1 /* MainScreenViewController.swift in Sources */,
 				6B283B6C2739CC8300F0BDF6 /* ViewController.swift in Sources */,
 				6B283B722739CC8300F0BDF6 /* Hydro_Budz.xcdatamodeld in Sources */,
 				6B283B682739CC8300F0BDF6 /* AppDelegate.swift in Sources */,
