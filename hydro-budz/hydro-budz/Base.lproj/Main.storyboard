@@ -97,6 +97,33 @@
                                     <segue destination="ECI-Ys-tme" kind="show" id="Y9m-Eo-NLl"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n9R-SO-WJd">
+                                <rect key="frame" x="58" y="56" width="78" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Settings"/>
+                                <connections>
+                                    <segue destination="peo-au-yM8" kind="show" id="cfh-Ud-A7R"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="etK-xy-FNj">
+                                <rect key="frame" x="180" y="386" width="70" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Bottles"/>
+                                <connections>
+                                    <segue destination="Mrc-bj-drN" kind="show" id="h3b-WC-T5Z"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1uo-xm-1BX">
+                                <rect key="frame" x="180" y="419" width="64" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Plants"/>
+                                <connections>
+                                    <segue destination="NrZ-Vp-7nu" kind="show" id="Bdx-2c-9GQ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="XK1-TQ-SBV"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -125,6 +152,54 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gun-tA-yrk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2467" y="829"/>
+        </scene>
+        <!--Settings-->
+        <scene sceneID="APT-3r-fcC">
+            <objects>
+                <viewController id="peo-au-yM8" customClass="Settings" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="peg-tF-Lid">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="YgD-2v-9mQ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="cs5-hZ-PrY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zkw-Ev-zP5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1286" y="-703"/>
+        </scene>
+        <!--Bottles-->
+        <scene sceneID="mRr-i2-cmv">
+            <objects>
+                <viewController id="Mrc-bj-drN" customClass="Bottles" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SYI-9N-O3p">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="AhV-U1-E5G"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="o6v-dD-bNW"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oso-9u-s1Z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2239" y="-1069"/>
+        </scene>
+        <!--Plants-->
+        <scene sceneID="T7e-VS-Ncc">
+            <objects>
+                <viewController id="NrZ-Vp-7nu" customClass="Plants" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AbD-S5-oc6" customClass="Plants">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="JgD-hm-KTg"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Pa1-aP-MaE"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sof-uQ-Lka" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3030" y="-554"/>
         </scene>
         <!--Water Update-->
         <scene sceneID="giG-84-gPp">
@@ -198,7 +273,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7xK-L9-20f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2466.666666666667" y="118.52678571428571"/>
+            <point key="canvasLocation" x="2861" y="154"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="boW-Yf-UoB">
